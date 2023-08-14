@@ -1,0 +1,57 @@
+body {
+  background-color: #9be8d8;
+}
+
+#hero {
+  background-color: #78c1f3;
+}
+
+#contactMe {
+  background-color: #f8fdcf;
+}
+
+#resume {
+  background-color: #e2f6ca;
+}
+
+.pacifico {
+  font-family: Pacifico;
+}
+
+hr {
+  width: 4%;
+  border-top: 6px;
+  border-style: dotted;
+  margin: 50px auto;
+}
+
+.offcanvas.offcanvas-start {
+  width: 50% !important;
+}
+
+.offcanvas.offcanvas-end {
+  width: 50% !important;
+}
+
+.island {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
